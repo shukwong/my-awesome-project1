@@ -42,7 +42,7 @@ bc_data = box_read(file_id = 978329557933)
 
 # Work as always
 
-plot_variable = "BMI" # change here
+plot_variable = "age" # change here
 n_bins = 50
 
 hist(bc_data[bc_data[["status"]]==1, plot_variable], 
